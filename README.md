@@ -3,7 +3,7 @@ A simple header only library to numerically assess worst case floating point rou
 
 Easy to use! Just replace `double` with `bounded_double`. In some cases your code has to be adjusted a little. For example if you use operators with a double on the left hand side, or apply a fancy function on a bounded double.
 
-Disclaimers: This code was not battle tested. Efficiency could be greatly improved (expensive function calls everywhere!).
+Disclaimers: This code is licenced under three clause BSD. This code was not battle tested. Efficiency could be greatly improved (expensive function calls everywhere!).
 Note that the `apply` function can not be used in arbitrary situations.
 
 
